@@ -37,19 +37,37 @@ This guide will help you run a local Python script on your machine. Follow the s
 
 ## Running The Algorithm
 
-- Command line:
+- Command:
     ```
     python main.py <start_index> <end_index>
     ```
-- Output: 
+- Output:
     - length of the shortest paths of three algorithms
     - the shortest paths of three algorithms
     - file named **solutions/path-<start_index>-<end_index>.csv**
+## Included files
+- Data:
 
-## Example
-
-
+    - nodes.csv: spreadsheet contains data about nodes
+    - edges.csv: spreadsheet contains data about edges
+    - base.csv: spreadsheet contains merged data (nodes and edges), location presented by WKT format
+- Solutions:
+    - path-\*-\*.csv: example solution, contains path data
 ## Visualizations
 
+Follow these steps to visualize path:
 
-<img src="https://imgbb.host/images/image88f83169f214b2f2.png" alt="image88f83169f214b2f2.png" border="0">
+
+1.  Create a copy of Ho Chi Minh city map (link...)
+    <img src="./images/demo_0.png">
+2. Upload *base.csv* to a layer, then choose WKT and id sequencely for location and identification information.
+    <img src="./images/demo_1.png">
+    After this step, the map would look like the following image:
+    <img src="./images/demo_2.png">
+
+3. Run the algorithm and get the output files named **path-<start_index>-<end_index>.csv** inside *solutions* folder. Upload path file just like uploading *base.csv*, receiving the visualization of path found by algorithms
+    <img src="./images/demo_3.png">
+
+4. [Optional] Compare with google's solution:
+    Use navigation feature in tool bar, choose *driving car* option with start and end point.
+    <img src="./images/demo_4.png">

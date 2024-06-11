@@ -20,7 +20,7 @@ def dijkstra(aM, start, end):
             break
 
         for v in range(n):
-            if aM[u][v] != 0 and v not in visited:  # Assuming 0 means no edge
+            if aM[u][v] != 0 and v not in visited:
                 alt = current_dist + aM[u][v]
                 if alt < dist[v]:
                     dist[v] = alt
