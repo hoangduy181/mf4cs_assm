@@ -58,7 +58,8 @@ This guide will help you run a local Python script on your machine. Follow the s
 Follow these steps to visualize path:
 
 
-1.  Create a copy of Ho Chi Minh city map (link...)
+1.  Create a copy of Ho Chi Minh city map ([Google My Map](https://www.google.com/maps/d/u/0/))
+    <img src="./images/google_my_map.png">
     <img src="./images/demo_0.png">
 2. Upload *base.csv* to a layer, then choose WKT and id sequencely for location and identification information.
     <img src="./images/demo_1.png">
@@ -71,3 +72,5 @@ Follow these steps to visualize path:
 4. [Optional] Compare with google's solution:
     Use navigation feature in tool bar, choose *driving car* option with start and end point.
     <img src="./images/demo_4.png">
+    Compare image
+    <img src="./images/demo_compare.png">
